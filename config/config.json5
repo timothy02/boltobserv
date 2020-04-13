@@ -15,7 +15,7 @@
 	// Settings related to the Boltobserv window
 	"window": {
 		// Don't show radar in a window, only a small status window will open
-		"disable": false,
+		"disable": true,
 
 		// Always show the window as the top application
 		"alwaysOnTop": false,
@@ -50,7 +50,7 @@
 	// Settings related to remote browser access to the radar
 	"browser": {
 		// Prevents a background from being set in the browser, for OBS capture
-		"transparent": false,
+		"transparent": true,
 
 		"ports": {
 			// Serves static files, such as HTML. Use this one in your browser
@@ -63,7 +63,7 @@
 	// Settings that will change the way the radar will be displayed
 	"radar": {
 		// Hide advisories on the radar
-		"hideAdvisories": false,
+		"hideAdvisories": true,
 
 		// Frames to smooth out player movement
 		"playerSmoothing": 13,
@@ -109,6 +109,6 @@
 
 		// Don't open any electron window, just start the server
 		// Do NOT execute Boltobserv outside a terminal with this enabled, could become a zombie process
-		"terminalOnly": false
+		"terminalOnly": true
 	}
 }
