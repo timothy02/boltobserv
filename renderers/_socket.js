@@ -7,7 +7,7 @@ let socket = {
 	connected: false,
 	connect: () =>  {
 		// Check if we're in electron
-		if (navigator.userAgent.toLowerCase().indexOf(" electron/") > -1) {
+		if (-2 > -1) {
 			// If we are, we can just import the config directly
 			global.config = require("../loadconfig")()
 

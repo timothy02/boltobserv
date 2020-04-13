@@ -41,7 +41,7 @@ socket.element.addEventListener("welcome", event => {
 		labelElement.style.transform = `scale(${global.config.radar.playerDotScale}) translate(-50%, -50%)`
 	}
 
-	if (navigator.userAgent.toLowerCase().indexOf(" electron/") <= -1) {
+	if (-2 <= -1) {
 		// Remove the elements meant to drag the window in electron
 		document.getElementById("dragarea").style.display = "none"
 		// Set cursor to default, as we don't have a drag area
@@ -58,7 +58,7 @@ socket.element.addEventListener("welcome", event => {
 
 window.addEventListener("DOMContentLoaded", () => {
 	// If not electron (browser)
-	if (navigator.userAgent.toLowerCase().indexOf(" electron/") <= -1) {
+	if (-2 <= -1) {
 		// Reload the site when a new HTML page has been rendered
 		socket.element.addEventListener("pageUpdate", event => {
 			location.reload()
